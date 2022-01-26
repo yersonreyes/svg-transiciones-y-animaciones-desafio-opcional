@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio2</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: rgb(97, 127, 212);
+        background: linear-gradient(
+          90deg,
+          rgba(97, 127, 212, 1) 0%,
+          rgba(187, 72, 115, 1) 100%
+        );
+      }
+      .contenedor {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .button {
+        color: white;
+        background-color: #303740;
+        border: none;
+        padding: 1rem 2rem;
+        cursor: pointer;
+        font-size: 30px;
+      }
+      .button:active {
+        transform: scale(0.9);
+      }
+
+      .button:hover {
+        background-color: rgba(48, 55, 64, 0.5);
+        border: 1px solid white;
+        box-shadow: -7px 9px 5px -1px rgba(0, 0, 0, 0.75);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <button class="button">Conocer mas</button>
+    </div>
+  </body>
+</html>
